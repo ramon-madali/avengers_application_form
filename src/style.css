@@ -1,0 +1,116 @@
+body {
+  background-image: linear-gradient(#4d1933, #cccc00, #990000);
+  text-align: center;
+  font-family: "lucida console";
+  min-width: 320px;
+  font-weight: bold;
+}
+
+#title {
+  color: #ffff1a;
+  font-family: "arial black";
+  font-style: italic;
+  margin: 50px auto;
+  }
+
+#paper {
+background-image: linear-gradient(70deg, #ffe699, #c2c2a3);  
+  margin: 10px;
+}
+
+
+
+#description {
+  font-family: "arial black";
+  font-size: 20px;
+  padding: 20px;
+  color: #660022;
+}
+
+
+.label {
+  display: inline-block;
+  text-align: right;
+  width: 48%;
+  padding: 5px;
+  vertical-align: middle;
+  
+}
+
+.input {
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+  vertical-align: middle;
+  
+}
+
+.input-field {
+  height: 20px;
+  width: 280px;
+  padding: 2px;
+  background-color: #f2e6ff;
+  margin: 10px;
+  border-radius: 2px;
+}
+
+.input-field-age {
+  width: 50px;
+  height: 20px;
+  padding: 2px;
+  background-color: #f2e6ff;
+  margin: 10px;
+  border-radius: 2px;
+}
+
+.input-field-birthdate {
+  width: 110px;
+  height: 20px;
+  padding: 2px;
+  background-color: #f2e6ff;
+  margin: 10px;
+  border-radius: 2px;
+}
+
+.option-row {
+  margin: 30px;
+}
+
+.option-label {
+ display: inline-block;
+  text-align: right;
+  width: 48%;
+  vertical-align: top;
+}
+
+.option-input {
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+  vertical-align: bottom;
+}
+
+#thanos {
+  color: #e60000;
+}
+
+
+#submit {
+  margin: 50px;
+  position: relative;
+  background: #ffff00;
+  padding: 7px 45px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  border-radius: 50%;
+}
+
+#submit:hover {
+  background: red;
+}
+
+#submit:active {
+  background: #660033;
+  top: 3px;
+  left: -3px;
+}
