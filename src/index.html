@@ -1,231 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <title>Document</title>
+</head>
 
-<h1 id="title">Avengers Application Form</h1>
+<body>
+    <h1 id="title">Avengers Application Form</h1>
 
-<div id="paper">
-<p id="description">Do you have what it takes to be a superhero?</p>
+    <div id="paper">
+        <p id="description">Do you have what it takes to be a superhero?</p>
 
-<form id="survey-form" method="GET">
-<div class="row-tab">  
-  <div class="label">  
-<label id="name-label" for="name">Name:</label>
-  </div>
-  <div class="input">
-  <input autofocus type="text" name="name" id="name" required placeholder="Enter your Name" class="input-field">
-  </div>
-</div>    
-    
- <div class="row-tab">
-   <div class="label">
-   <label id="email-label" for="email">email:</label>
-    </div> 
-   <div class="input">
-   <input type="email" name="email" id="email" required placeholder="Enter your email" class="input-field">
-    </div> 
-  </div> 
-  
-  
-  <div class="row-tab">
-    <div class="label">
-    <label id="number-label" for="number">Age:</label>
-      </div>
-     
-     <div class="input">  
-    <input type="number" name="age" id="number" min="1" max="1000" placeholder="Age" required class="input-field-age">
-      </div> 
-  </div>
-  
-  <div class="row-tab">
-   <div class="label"> 
-    <label for="birthdate">Birthdate:</label>
-    </div> 
-   <div class="input"> 
-    <input type="date" name="birthdate" id="birthdate" min="1000-01-01" required class="input-field-birthdate">
-  </div>
- </div> 
-  
-  
- <div class="option-row"> 
- 
-   <div class="option-label">
-   <label for="userAttribute">Are you willing to risk your life for the sake of others?</label>
-    </div>
+        <form id="survey-form" method="GET">
 
-   <div class="option-input">
-     <div>
-        <input type="radio" name="willingness" id="definitely" class="userAttribute" value="definitely">
-    <label for="definitely">Definitely</label>
-  </div>
-  <div>
-      <input type="radio" name="willingness" id="maybe" class="userAttribute" value="maybe">
-      <label for="maybe">Maybe</label>
- </div>
-  <div>
-    <input type="radio" name="willingness" id="never" class="userAttribute" value="never">
-    <label for="never">Never</label>
-    </div>
-     </div>
-</div>
-  
-  
-  <div class="option-row">
-    <div class="label">
-    <label for="dropdown">What is your primary attribute?</label>
-      </div>
+            <div class="row-tab">  
+                <div class="label">  
+                    <label id="name-label" for="name">Name:</label>
+                </div>
+                <div class="input">
+                    <input autofocus type="text" name="name" id="name" required placeholder="Enter your Name" class="input-field">
+                </div>
+            </div>    
     
-    <div class="input">
-    <select name="attribute" id="dropdown">
-      <option disabled selected value>Select an option</option>
-      <option value="strength">Strength</option>
-      <option value="agility">Agility</option>
-      <option value="enchantment">Enchantment</option>
-      <option value="other">Other</option>
-    </select>
-      </div>
-    </div>
+            <div class="row-tab">
+                <div class="label">
+                    <label id="email-label" for="email">email:</label>
+                </div> 
+                <div class="input">
+                    <input type="email" name="email" id="email" required placeholder="Enter your email" class="input-field">
+                </div> 
+            </div> 
   
-  <div class="option-row">
-    
-    <div class="option-label">
-    <p>What is your superpower (Check all that apply)?</p>
-    </div>
+            <div class="row-tab">
+                <div class="label">
+                    <label id="number-label" for="number">Age:</label>
+                </div>
+                <div class="input">  
+                    <input type="number" name="age" id="number" min="1" max="1000" placeholder="Age" required class="input-field-age">
+                </div> 
+            </div>
   
-  <div class="option-input">
-    <div>
-    <input type="checkbox" name="strength" id="strength" value="strength">
-      <label>Super Strength</label>
-    </div>
-    <div>
-      <input type="checkbox" name="flying" id="flying" value="flying">
-      <label for="flying">Flying</label>
-    </div>
-    <div>
-      <input type="checkbox" name="energy" id="energy" value="energy">
-      <label for="energy">Energy Beam</label>
-          </div>
-    <div>
-      <input type="checkbox" name="object" id="object" value="object">
-      <label for ="object">Object Manipulation</label>
-    </div>
-    <div>
-      <input type="checkbox" name="durability" id="durability" value="durability">
-      <label for="durability">Super Durability</label>
-      </div>
-    <div>
-      <input type="checkbox" name="reality" id="reality" value="reality">
-      <label for="reality">Reality Warping</label>
-    </div>
-    <div>
-      <input type="checkbox" name="shape" id="shape" value="shape">
-       <label for="shape">Shapeshifting</label> 
-    </div>
-    <div>
-      <input type="checkbox" name="regenative" id="regenative" value="regenative">
-      <label>Regenative Power</label>
-    </div>
-    <div>
-      <input type="checkbox" name="wealth" id="wealth" value="wealth">
-      <label for="wealth">Wealth</label>
-    </div>
-    <div>
-      <input type="checkbox" name="genius" id="genius" value="genius">
-      <label for="genius">Genius Intellect</label>
-    </div>
-    <div>
-      <input type="checkbox" name="stretch" id="stretch" value="stretch">
-      <label for="stretch">Super-Stretching</label>
-    </div>
-    <div>
-      <input type="checkbox" name="telepathy" id="telepathy" value="telepathy">
-      <label>Telepathy/Telekensis</label>
-    </div>
-    <div>
-      <input type="checkbox" name="teleportation" id="teleportation" value="teleportation">
-      <label for="teleportation">Teleportation</label>
-    </div>
-    <div>
-     <input type="checkbox" name="speed" id="speed" value="speed">
-      <label for="speed">Super Speed</label>
-    </div>
-    <div>
-      <input type="checkbox" name="absorb" id="absorb" value="absorb">
-      <label for="absorb">Power Absorption</label>
-    </div>
-    <div>
-      <input type="checkbox" name="senses" id="senses" value="senses">
-      <label for="senses">Super Senses</label>
-    </div>
-    <div>
-      <input type="checkbox" name="time" id="time" value="time">
-      <label for="time">Time-bending/freezing</label>
-    </div>
-    <div>
-    <input type="checkbox" name="others" value="others">  
-    <label for="others">Others</label>
-      <textarea name="others" id="others"> </textarea>
-    </div>
-    </div>
-    
-</div>
+            <div class="row-tab">
+                <div class="label"> 
+                    <label for="birthdate">Birthdate:</label>
+                </div> 
+                <div class="input"> 
+                    <input type="date" name="birthdate" id="birthdate" min="1000-01-01" required class="input-field-birthdate">
+                </div>
+            </div> 
+  
+  
+            <div class="option-row"> 
+                <div class="option-label">
+                    <label for="userAttribute">Are you willing to risk your life for the sake of others?</label>
+                </div>
+            <div class="option-input">
+                <div>
+                    <input type="radio" name="willingness" id="definitely" class="userAttribute" value="definitely">
+                    <label for="definitely">Definitely</label>
+                </div>
+                <div>
+                    <input type="radio" name="willingness" id="maybe" class="userAttribute" value="maybe">
+                    <label for="maybe">Maybe</label>
+                </div>
+                <div>
+                    <input type="radio" name="willingness" id="never" class="userAttribute" value="never">
+                    <label for="never">Never</label>
+                </div>
+                </div>
+            </div>
+  
+            <div class="option-row">
+                <div class="label">
+                    <label for="dropdown">What is your primary attribute?</label>
+                </div>
+                <div class="input">
+                    <select name="attribute" id="dropdown">
+                        <option disabled selected value>Select an option</option>
+                        <option value="strength">Strength</option>
+                        <option value="agility">Agility</option>
+                        <option value="enchantment">Enchantment</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+            </div>
+  
+            <div class="option-row">
+                <div class="option-label">
+                    <p>What is your superpower (Check all that apply)?</p>
+                </div>
 
-  
-  <div class="option-row">
-    <div class="label">
-    <label for="mentor"> Choose your mentor: </label>
-      </div>
+                <div class="option-input">
+                    <div>
+                        <input type="checkbox" name="strength" id="strength" value="strength">
+                        <label>Super Strength</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="flying" id="flying" value="flying">
+                        <label for="flying">Flying</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="energy" id="energy" value="energy">
+                        <label for="energy">Energy Beam</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="object" id="object" value="object">
+                        <label for ="object">Object Manipulation</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="durability" id="durability" value="durability">
+                        <label for="durability">Super Durability</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="reality" id="reality" value="reality">
+                        <label for="reality">Reality Warping</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="shape" id="shape" value="shape">
+                        <label for="shape">Shapeshifting</label> 
+                    </div>
+                    <div>
+                        <input type="checkbox" name="regenative" id="regenative" value="regenative">
+                        <label>Regenative Power</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="wealth" id="wealth" value="wealth">
+                        <label for="wealth">Wealth</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="genius" id="genius" value="genius">
+                        <label for="genius">Genius Intellect</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="stretch" id="stretch" value="stretch">
+                        <label for="stretch">Super-Stretching</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="telepathy" id="telepathy" value="telepathy">
+                        <label>Telepathy/Telekensis</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="teleportation" id="teleportation" value="teleportation">
+                        <label for="teleportation">Teleportation</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="speed" id="speed" value="speed">
+                        <label for="speed">Super Speed</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="absorb" id="absorb" value="absorb">
+                        <label for="absorb">Power Absorption</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="senses" id="senses" value="senses">
+                        <label for="senses">Super Senses</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="time" id="time" value="time">
+                        <label for="time">Time-bending/freezing</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="others" value="others">  
+                        <label for="others">Others</label>
+                        <textarea name="others" id="others"> </textarea>
+                    </div>
+                </div>
+            </div>
+
+            <div class="option-row">
+                <div class="label">
+                    <label for="mentor"> Choose your mentor: </label>
+                </div>
+                <div class="input">
+                    <select name="mentor" id="mentor">
+                        <option disabled selected value>Select an option</option>
+                        <option value="captain">Captain America</option>
+                        <option value="iron">Iron Man</option>
+                        <option value="marvel">Captain Marvel</option>
+                        <option value="widow">Black Widow</option>
+                        <option value="hulk">Incredible Hulk</option>
+                        <option value="thor">Thor</option>
+                        <option value="hawkeye">Hawkeye</option>
+                        <option value="panther">Black Panther</option>
+                        <option value="doctor">Doctor Strange</option>
+                        <option value="vision">Vision</option>
+                        <option value="scarlet">Scarlet Witch</option>
+                        <option value="panther">Black Panther</option>
+                        <option value="ant">Ant-Man</option>
+                        <option value="nick">Nick Fury</option>
+                        <option value="spider">Spider-Man</option>
+                    </select>
+                </div>
+            </div>
     
-    <div class="input">
-    <select name="mentor" id="mentor">
-      <option disabled selected value>Select an option</option>
-      <option value="captain">Captain America</option>
-      <option value="iron">Iron Man</option>
-      <option value="marvel">Captain Marvel</option>
-      <option value="widow">Black Widow</option>
-      <option value="hulk">Incredible Hulk</option>
-      <option value="thor">Thor</option>
-      <option value="hawkeye">Hawkeye</option>
-      <option value="panther">Black Panther</option>
-      <option value="doctor">Doctor Strange</option>
-      <option value="vision">Vision</option>
-      <option value="scarlet">Scarlet Witch</option>
-      <option value="panther">Black Panther</option>
-      <option value="ant">Ant-Man</option>
-      <option value="nick">Nick Fury</option>
-      <option value="spider">Spider-Man</option>
-      
-   </select>
-    </div>
-  </div>
+            <div class="option-row">
+                <div class="label">
+                    <label for="save">How can you help save the world?</label>
+                </div>
+                <div class="input">
+                    <textarea name="save" style="height:50px;resize;vertical" id="save" placeholder="Enter your answer here..."> </textarea>
+                </div>
   
-  
-  <div class="option-row">
-    <div class="label">
-  <label for="save">How can you help save the world?</label>
-      </div>
-    <div class="input">
-  <textarea name="save" style="height:50px;resize;vertical" id="save" placeholder="Enter your answer here..."> </textarea>
-      </div>
-  
-  
-  <div class="option-row">
-    <div class="option-label">
-    <label for="thanos" id="thanos">Do you hate Thanos?</label>
-    </div>
-      <div class="option-input">
-        <div>
-    <input type="radio" name="thanos" id="yes" class="thanos" value="yes">
-    <label for="yes">Yes</label>
-          </div>
-    <div>
-      <input type="radio" name="thanos" id="no" class="thanos" value="no">
-      <label for="no">No</label>
-    </div>
-  </div>
+              <div class="option-row">
+                <div class="option-label">
+                    <label for="thanos" id="thanos">Do you hate Thanos?</label>
+                </div>
+                <div class="option-input">
+                    <div>
+                        <input type="radio" name="thanos" id="yes" class="thanos" value="yes">
+                        <label for="yes">Yes</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="thanos" id="no" class="thanos" value="no">
+                        <label for="no">No</label>
+                    </div>
+                </div>
   </div>
     
-  <button id="submit" type="submit">Submit</button>
+            <button id="submit" type="submit">Submit</button>
+    
+        </form>
+    </div>
   
-  
-  </form>
+</body>
 
-  </div>
-  
+</html>
